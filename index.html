@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador / Temporizador</title>
+    <link rel="stylesheet" href="/styles/Ejercicio1.css">
+    <script src="/src/Ejercicio1.js" async defer></script>
+
+</head>
+<body>
+    <h3>Bienvenido a tu contador bajo tiempo</h3>
+    <div class="container">
+        <p id="contador"></p>
+        <div class="btn-containers">
+            <button class="btn-count" id="btn-count">
+                +
+            </button>
+
+
+            <button class="btn-minus" id="btn-minus">
+                -
+            </button>
+        </div>
+    </div>
+
+        <div class="container">
+            <p id="temporizador">Tiempo:</p>
+            <input type="positive number" id="inputValue" placeholder="Ingresa los segundos" min="0">
+            <button onclick="startCountdown()">Iniciar</button>
+        </div>
+    
+        <h4>
+            <a href="/pages/Ejercicio2.html">Ir a Calculadora</a>
+        </h4>
+    
+</body>
+</html>
